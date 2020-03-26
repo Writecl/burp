@@ -1,0 +1,20 @@
+{
+    "name": "writecl/burp",
+    "description": "Simple PHP router that works with query-string and uri-segments, laravel filter system",
+    "keywords": ["php","router", "filter", "front controller", "simple"],
+    "homepage": "https://github.com/writecl/burp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo Valenzuela",
+            "email": "rvalenzuelaferrada@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/support": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {"Writecl\\Burp\\": "src/"}
+    }
+}
